@@ -1,99 +1,72 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>CSS CHEAT Cheet</title>
-    <! MAKE no EXTRA spaces>
-    <style type="text/css">
-        h2 {
-            color: blue;
-        }
-    </style>
-    <link rel="stylesheet" type="text/css" href="style.css" >
+    <meta charset="utf-8"> <! Do I need this if my code stays in English!?>
+    <meta name="viewpoint" content="width=device-width" />
+
+    <! I Imagine these are only helpful with the website actually gets on search engines>
+    <meta name="description" content="This webiste isn't real so don't worry" />
+    <meta name="keywords" content="early universe, cosmic dawn, first galaxies, first stars, population 3, cosmology" />
+    <meta name="author" content="Erika Hoffman" />
+
+    <title>The Early Universe</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+    <header>
+        <nav id="navbar">
+                <div class="container">
+                    <h1 class="current"><a href="#"><span class="main-header">A View of the Universe</span></a></h1>
+                    <ul>
+                        <li><a href="#">What happened in the <span class="bold">Dark Ages?</span></a></li>
+                        <li><a href="first_stars.html">How did the <span class="bold">first stars</span> form?</a></li>
+                        <li><a href="#">How did the <span class="bold">first galaxies</span> form?</a></li>
+                        <li><a href="#">How do we <span class="bold">observe</span> them?</a></li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+    <section id="boxes">
+        <div class="box">
+            <img src="Dark Ages (3).png" />
+            <div class="top-left">The Big <br />Bang</div>
+        </div>
+    </section>
+
+    <section class="below_image">
+        <h1>Currently Viewing: Conceptual Map</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+            <br />Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+        </p>
+    </section>
+
     <div class="container">
-        <! reusable class, ID would be unique (dont repeat ID's)>
-        <div class="box-1">
-            <h1 style="color:red">The Box</h1> <! TERRIBLE< DONT DO THIS -- inline styling>
-            <h2>This is blue</h2>
-            <h3>this is green</h3>
-            <h4>This is a hexadecimal color</h4>
-            <h5>rgb blue</h5>
-            <h6>Tahoma Font</h6>
-            <p>lorem lora lorry laigh lamber lay tgere hey there way where I am a paragraph dont you love paragraphs who doesn't please tell me who in this world could not </p>
-        </div>
-        <div class="box-2">
-            <h1>The Next Box</h1>
-            <p>lorem lora lorry laigh lamber lay tgere hey there way where I am a paragraph dont you love paragraphs who doesn't please tell me who in this world could not </p>
-            <a class="button" href="">Read More</a>
-        </div>
-
-        <div class="categories">
-            <! can put class in div or the actual list itself, can do same thing in various ways!>
-            <h3>Categories</h3>
-            <ul>
-                <li><a href="#">Caregory 1</a></li> <! a is LINK>
-                <li><a href="#">Caregory 2</a></li> <! a is LINK>
-                <li><a href="#">Caregory 3</a></li> <! a is LINK>
-                <li><a href="#">Caregory 4</a></li> <! a is LINK>
-            </ul>
-        </div>
-        <form class="my-form">
-            <div class="form-group">
-                <label>Name:</label>
-                <input type="text" name="name" />
-            </div>
-            <div class="form-group">
-                <label>Email:</label>
-                <input type="text" name="email" />
-            </div>
-            <div class="form-group">
-                <label>Message:</label>
-                <textarea type="text" name="message"></textarea>
-            </div>
-            <input class="button" type="submit" value="Submit" />
-        </form>
-
         <div class="block">
-            <h2>Heading</h2>
+            <div id="hera">
+                <h2>Hydrogen Epoch of Reionization Array (HERA)</h2>
+            </div>
             <p>lorem lora lorry laigh lamber lay tgere hey there way where I am a paragraph dont you love paragraphs who doesn't please tell me who in this world could not</p>
         </div>
         <div class="block">
-            <h2>Heading</h2>
+            <div id="dapper">
+                <h2>Dark Ages Polarimeter Pathfinder (DAPPER)</h2>
+            </div>
             <p>lorem lora lorry laigh lamber lay tgere hey there way where I am a paragraph dont you love paragraphs who doesn't please tell me who in this world could not</p>
         </div>
         <div class="block">
-            <h2>Heading</h2>
-            <p>lorem lora lorry laigh lamber lay tgere hey there way where I am a paragraph dont you love paragraphs who doesn't please tell me who in this world could not</p>
+            <div id="jim">
+                <h2>James Webb Space Telescope</h2>
+            </div>
+            <p>Launching in Spring 2021. More text here more text here. More text here more text here. More text here more text here. More text here more text here.</p>
         </div>
+    </div>
 
-        <div class="clr"></div> <! must clear any previous floating?>
+    <footer id="main-footer">
+        <p>Copyright &copy; 2020 This Website</p>
+    </footer>
 
-        <div id="main-block">
-            <h2>Heading</h2>
-            <p>lorem lora lorry laigh lamber lay tgere hey there way where I am a paragraph dont you love paragraphs who doesn't please tell me who in this world could not</p>
-        </div>
-
-        <div id="sidebar">
-            <p>lorem lora lorry laigh lamber lay tgere hey there way where I am a paragraph dont you love paragraphs who doesn't please tell me who in this world could not</p>
-        </div>
-
-        <div class="clr"></div>
-        <div class="p-box">
-            <h1>Hello</h1>
-            <h4>Goodbye</h4>
-        </div>
-
-        <ul class="my-list">
-            <li>List Item</li>
-            <li>List Item</li>
-            <li>List Item</li>
-            <li>List Item</li>
-            <li>List Item</li>
-        </ul>
-    </div> <! containter ends>
-
-    <a class="fix-me button" href="">Hello</a> <! TWO Classes>
-    <div style="margin-top:500px"></div> <! allows the page to scroll down past bottom text>
 </body>
 </html>
