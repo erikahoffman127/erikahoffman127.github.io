@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of Maryland, College Park</a>. ebhoff@umd.edu 
+subtitle: <a href='#'>NASA FINESST Fellow</a>. University of Maryland, College Park ebhoff@umd.edu 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   
-#
 #  more_info: >
 #    <p>555 your office number</p>
 #    <p>123 your address street</p>
@@ -29,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate working with NASA GSFC & UMD Researcher Dr. Anna Ogorzalek and UMD Prof. Christopher Reynolds. My research focuses on analyizing high-resolution X-ray spectroscopy with advanced statistical and computational methods to study highly ionized Active Galactic Nuclei (AGN) outflows and their connection in AGN feedback. I primarily use data from Chandra X-ray Observatory, XMM-Newton, and XRISM. I received my M.S. in Astronomy from the University of Maryland, College Park in 2023. I graduated from the University of California, Los Angeles with a B.S. in astrophysics after transferring from Irvine Valley College. 
+I am a Ph.D. candidate and NASA FINESST Fellow working with NASA GSFC & UMD Researcher Dr. Anna Ogorzalek and UMD Prof. Christopher Reynolds. My research focuses on analyizing high-resolution X-ray spectroscopy with advanced statistical and computational methods to study highly ionized Active Galactic Nuclei (AGN) outflows and their connection in AGN feedback. I primarily use data from Chandra X-ray Observatory, XMM-Newton, and XRISM. I received my M.S. in Astronomy from the University of Maryland, College Park in 2023. I graduated from the University of California, Los Angeles with a B.S. in astrophysics after transferring from Irvine Valley College. 
 
 #Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
   
