@@ -21,10 +21,10 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+#latest_posts:
+#  enabled: true
+#  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#  limit: 3 # leave blank to include all the blog posts
 ---
 
 I am a Ph.D. candidate and NASA FINESST Fellow working with NASA GSFC & UMD Researcher Dr. Anna Ogorzalek and UMD Prof. Christopher Reynolds. My research focuses on analyizing high-resolution X-ray spectroscopy with advanced statistical and computational methods to study highly ionized Active Galactic Nuclei (AGN) outflows and their connection in AGN feedback. I primarily use data from Chandra X-ray Observatory, XMM-Newton, and XRISM. I received my M.S. in Astronomy from the University of Maryland, College Park in 2023. I graduated from the University of California, Los Angeles with a B.S. in astrophysics after transferring from Irvine Valley College. 
