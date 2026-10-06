@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: FINNEST-awarded warm absorber population study
+description: using archival XMM-Newton Reflection Grating Spectrometer data
 img: assets/img/3.jpg
 importance: 2
 category: work
