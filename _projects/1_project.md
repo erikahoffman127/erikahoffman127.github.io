@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Time-averaged outflow study of MCG-6-30-15 with XRISM
+description: self-consitently tracking the outflows over ~25 years
 img: assets/img/12.jpg
 importance: 1
 category: work
